@@ -1,0 +1,23 @@
+html,
+body,
+#root,
+#root div:only-child,
+.gantt-container {
+  height: 100%;
+}
+
+.gantt_task_line {
+  background-color: #bfdbff;
+  border-radius: 5px;
+  height: 20px !important;
+}
+
+.gantt_task_line .gantt_task_progress {
+  background-color: #2a4690;
+  border-radius: 5px;
+}
+
+.complete_button_set {
+  background-color: #72bf6a;
+  color: white;
+}
